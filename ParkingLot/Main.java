@@ -15,6 +15,7 @@ public class Main {
         ExitGate exitGate=new ExitGate(parkingSystem);
         ParkingFloor parkingFloor=new ParkingFloor(3,3);
         entryGate.vehicleEntry(vehicle1,parkingFloor,1);
+//        System.out.println(parkingFlod);
         exitGate.exitVehicle(vehicle1,parkingFloor,5);
     }
 }

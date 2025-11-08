@@ -1,0 +1,7 @@
+package LibraryManagementSystem;
+
+public class Admin extends User{
+    public Admin(){
+        super(Role.ADMIN);
+    }
+}
